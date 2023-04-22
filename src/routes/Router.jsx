@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes}  from "react-router-dom"
 import List from "../components/list/list";
 import Detalle from "../components/detalle/Detalle";
 
+
 const Routs = () => {
     return(
         <Router>
