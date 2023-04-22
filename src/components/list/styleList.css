@@ -1,0 +1,30 @@
+button { 
+    margin: 10px ;
+}
+.lista {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 700px){
+    .lista {
+        display: inline-block;
+    }
+}
+
+
+.buttom {
+    transform: translateY(-3px);
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+
+    .botones{
+        display:flex;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 0px 1px rgb(50, 50, 50);
+        justify-content: center;
+
+    }
+  

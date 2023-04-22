@@ -1,0 +1,17 @@
+.detalles { 
+    background: rgb(93, 92, 92);
+    border-radius: 5px;
+    width: 500px;
+    height: auto;
+    margin: 20px;
+    padding: 50px;
+}
+
+.detalles:hover{
+    transform: translateY(-3px);
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+li {
+    list-style: none;
+}
