@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Card from "../card/Card/";
-import './styleList.css/';
+import Card from "../card/card";
+import './styleList.css';
 
 export default function List() {
     const [isLoading, setIsLoading] = useState(true);
